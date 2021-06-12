@@ -1,0 +1,30 @@
+<!--databindind
+<h1> Hola esa ServerComponenet details are {{getserverid()}}, {{getservername()}} & {{getserverstatus()}} </h1>
+<p [ngStyle]="{backgroundColor: getcolor()}"
+[ngClass]="{online:serverstatus ==='online'}">
+{{getserverid()}}, {{getservername()}} & {{getserverstatus()}}
+</p>-->
+<div class="container">
+<div class="row">
+  <div class="col-xs-12">
+      <label for="Add new Servers or blueprints">Add new Servers or blueprints</label>
+    <hr>
+    <label for="Servername">Server Name</label>
+<!--  <input type="text"class="form-control" (input)="Newservername($event)" >-->
+      <input type="text"class="form-control" [(ngModel)]="newservername">
+      <!-- Localreferenes
+        <input type="text"class="form-control" #localrefnewservername>-->
+      <label for="Servercontent">Server Content</label>
+    <!--<input type="text"class="form-control" (input)="Blueservername($event)" >-->
+    <input type="text"class="form-control" [(ngModel)]="newBlueprintservername">
+
+<hr>
+        <button type="button" name="button" class="btn-primary"  (click)="Onserverevent()" > Add Server</button>
+<!-- Localreferenes
+  <button type="button" name="button" class="btn-primary"  (click)="Onserverevent(localrefnewservername)" > Add Server</button>
+
+      <!--  <p *ngIf="Sservercreated">server was created  {{newservername}} {{Sservercreated}} {{Serversatus}} }</p>-->
+        <button type="button" name="button"  class="btn-primary" (click)="onBlueservername()"> Add Server Blueprint</button>
+    </div>
+  </div>
+</div>

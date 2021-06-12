@@ -1,0 +1,18 @@
+body 	{background-color:#F8F8FF;}
+
+.welcome {text-align:center;font-family:courier;color:#FF0000;font-size:20px; color:white; font-family:courier; text-align:center; border:1px solid blue;}
+
+
+footer	{background-color:#777; position: fixed;left: 0;bottom: 0; width: 100%;}
+.nav-top  {border: 2px solid #343a40!important;background-color:#343a40!important;width:1340px;}
+.navbar-nav {text-align:right;}
+.btn-primary { background-color: #FF0000;}
+.hometop {background-color: #F8F8FF;}
+homerframe {border: 2px solid #777;}
+th {background-color: blue;text-align: left;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+table.center{margin-left: auto; margin-right: auto;}
+.elementsright{margin-right: auto;}
+table {font-size:20px;border-collapse: collapse;border-spacing: 0;width: 100%;border: 1px solid #ddd;}
+table, th, td {border: 1px solid black;border-collapse: collapse;}
